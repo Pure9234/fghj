@@ -1,0 +1,74 @@
+#a1 {
+    text-align: center;
+}
+#a2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#a3 {
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#a4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#callback{
+    width: 300px;
+    height: 150x;
+    background-color: #333;
+    position: absolute;
+    bottom: 30px;
+    transform: translateX(-100%);
+}
+#callback p{
+    color: #fff;
+    padding: 40px;
+}
+#callback::after{
+    content: 'Связаться с нами';
+    background: rgb(31, 86, 206);
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 0;
+    width: 244px;
+    position: absolute;
+    left: 300px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+}
+#callback:hover{
+    transform: translateX(0);
+    transition: all 0.7s ease;
+}
+.knop {
+    all: unset;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 22px 55px;
+    display: inline-block;
+    background-color: rgb(31, 86, 206);
+    border-radius: 5px;
+    padding: 15px 25px;
+    transition: all 0.8s ease 0s;
+  }
+  .knop:hover{
+    background-color: gray;
+  }
+  .kar {
+    margin-left: 50px;
+  }
+@media screen and (max-width:750px){
+    .card {
+        width: 50%;
+        max-width: 100%;
+        margin: auto auto 15px;
+    }
+}
+@media screen and (max-width:480px){
+    .card {
+        width: 95%;
+    }
+}
